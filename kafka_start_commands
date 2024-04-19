@@ -1,0 +1,5 @@
+# In the kafka server, we have to run these
+
+1. /bin/zookeeper-server-start.sh config/zookeeper.properties.
+2. ./bin/kafka-server-start.sh config/server.properties
+3. ./bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
